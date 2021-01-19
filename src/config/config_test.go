@@ -16,7 +16,7 @@ func Connect() (*sql.DB, error){
 
 }
 
-func ConnectingTest(t *testing.T) {
+func TestConnecting(t *testing.T) {
 	//var db *sql.DB
 
 	db1, err := Connect()
@@ -36,7 +36,7 @@ func ConnectingTest(t *testing.T) {
 	db1.Close()
 }
 
-func OpenTest(t *testing.T){
+func TestOpen(t *testing.T){
 	db1, _ := Connect()
 	err := db1.Ping()
 	if err!= nil{
@@ -49,7 +49,7 @@ func OpenTest(t *testing.T){
 	
 }
 
-func CloseTest(t *testing.T){
+func TestClose(t *testing.T){
 	db1, _ := Connect()
 	db1.Close()
 	err := db1.Ping()
