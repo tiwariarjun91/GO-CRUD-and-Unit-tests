@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Enter Data</title>
+    
+</head>
+<body>
+    <h2>Add New Product</h2>
+    <form action="/AddProduct" method="POST">
+        <label for="vend_i">Vendor id:- </label>
+        <input type="text" name="vendor_id" id="vend_i" placeholder="Vender Id" > <br>
+        <label for="nam">Username:- </label>
+        <input type="text" name="username" id="nam" placeholder="Enter username"><br>
+        <label for="pass">Password:- </label>
+        <input type="text" name="password" id="pass" placeholder="Enter Password"><br>
+        <label for="prdName">Product Name:- </label>
+        <input type="text" name="name" id="prdName" placeholder="Product Name" ><br>
+        <label for="prdQuantity">Product Quantity:- </label>
+        <input type="text" name="quantity" id="prdQuantity" placeholder="Product Quantity"><br>
+        <label for="prdPrice">Product Price:- </label>
+        <input type="text" name="price" id="prdPrice" placeholder="Product Price"><br>
+        <button  type="submit">Add Product</button>
+        
+
+
+
+    </form>
+    <h2>Show Products</h2>
+    <form action="/ShowData" method="POST">
+        <label for="vend_i">Vendor id:- </label>
+        <input type="text" name="vendor_id" id="vend_i" placeholder="Vender Id" ><br>
+        <label for="nam">Username:- </label>
+        <input type="text" name="username" id="nam" placeholder="Enter username"><br>
+        <label for="pass">Password:- </label>
+        <input type="text" name="password" id="pass" placeholder="Enter Password"><br>
+        <button  type="submit">Show Data</button>
+
+
+    </form>
+    <h2>Delete Product</h2>
+    <form action="/DeleteData" method="POST">
+        <label for="vend_i">Vendor id:- </label>
+        <input type="text" name="vendor_id" id="vend_i" placeholder="Vender Id" ><br>
+        <label for="prod_i">Product id:- </label>
+        <input type="text" name="prod_id" id="prod_i" placeholder="Product Id" ><br>
+        <label for="nam">Username:- </label>
+        <input type="text" name="username" id="nam" placeholder="Enter username"><br>
+        <label for="pass">Password:- </label>
+        <input type="text" name="password" id="pass" placeholder="Enter Password"><br>
+        <label for="prdName">Product Name:- </label>
+        <input type="text" name="name" id="prdName" placeholder="Product Name" ><br>
+        
+        <button  type="submit">Delete Product</button>
+    </form>
+    <h2>Update Product</h2>
+    <form action="/UpdateProduct" method="POST">
+        <label for="vend_i">Vendor id:- </label>
+        <input type="text" name="vendor_id" id="vend_i" placeholder="Vender Id" ><br>
+        <label for="prod_i">Product id:- </label>
+        <input type="text" name="prod_id" id="prod_i" placeholder="Product Id" ><br>
+        <label for="nam">Username:- </label>
+        <input type="text" name="username" id="nam" placeholder="Enter username"><br>
+        <label for="pass">Password:- </label>
+        <input type="text" name="password" id="pass" placeholder="Enter Password"><br>
+        <label for="prdQuantity">Product Quantity:- </label>
+        <input type="text" name="quantity" id="prdQuantity" placeholder="Product Quantity"><br>
+        <label for="prdPrice">Product Price:- </label>
+        <input type="text" name="price" id="prdPrice" placeholder="Product Price"><br>
+        <button  type="submit">Update Product</button>
+
+    </form>
+    
+</body>
+</html>
+

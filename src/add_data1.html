@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Enter Data</title>
+    
+</head>
+<body>
+    <h1>Please Enter Data</h1>
+    <form action="/AddProduct" method="POST">
+        <label for="vend_i">Vendor id</label>
+        <input type="text" name="vend_id" id="vend_i" placeholder="Vender Id" >
+        
+        <label for="prdName">Product Name</label>
+        <input type="text" name="name" id="prdName" placeholder="Product Name" >
+        <label for="prdQuantity">Product Quantity</label>
+        <input type="text" name="quantity" id="prdQuantity" placeholder="Product Quantity">
+        <label for="prdPrice">Product Price</label>
+        <input type="text" name="price" id="prdPrice" placeholder="Product Price">
+        <input type="submit">
+    </form>
+    <p>Your Id is {{.Id}}</p>
+</body>
+</html>
+

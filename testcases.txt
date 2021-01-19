@@ -1,0 +1,21 @@
+Database:- 
+1) Connection to Database
+2) Closing connection to the Database
+
+Working:-
+
+i) Actors
+a) User:-
+1) Validating the Data types
+2) Validating the Data
+
+b) Product:-
+1) Validating the Data types
+2) Validating the Data
+
+ii) Operations:-
+a) Login
+b) Sign Up
+c) Adding a Product
+d) Displaying a list of Products
+e) Deleting a Product
