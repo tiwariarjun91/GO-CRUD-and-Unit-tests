@@ -1,21 +1,27 @@
+Total :- 13
+Completed :- 7
+
+
 Database:- 
-1) Connection to Database
-2) Closing connection to the Database
+1) Connecting to a Database DONE
+1) Connection to Database status #open DONE
+2) Connection to Database status #close DONE
 
 Working:-
 
 i) Actors
 a) User:-
-1) Validating the Data types
-2) Validating the Data
+1) Validating the Data types DONE
+2) Validating the Data DONE
 
 b) Product:-
-1) Validating the Data types
-2) Validating the Data
+1) Validating the Data types DONE
+2) Validating the Data DONE
 
 ii) Operations:-
 a) Login
-b) Sign Up
-c) Adding a Product
-d) Displaying a list of Products
-e) Deleting a Product
+b) Sign Up DONE
+c) Adding a Product DONE
+d) Updating a Product DONE
+e) Deleting a Product DONE
+f) Displaying a list of Products
