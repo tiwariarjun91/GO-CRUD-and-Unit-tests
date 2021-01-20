@@ -196,7 +196,7 @@ func TestUpdateProduct(t *testing.T){
 	}
 }
 
-/*func TestDeleteProduct(t *testing.T){
+func TestDeleteProduct(t *testing.T){
 	
 	name := "arjun"
 	password := "1234"
@@ -242,4 +242,4 @@ func TestUpdateProduct(t *testing.T){
 	
 
 	
-}*/
+}
